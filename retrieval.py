@@ -17,7 +17,7 @@ from typing import Any
 from dotenv import load_dotenv
 import supabase
 
-from embedding import get_embedding_model, embed_text
+from ingestion.embedding import get_embedding_model, embed_text
 
 load_dotenv()
 
